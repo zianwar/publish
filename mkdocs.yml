@@ -1,6 +1,8 @@
 site_name: Anwar's Notes
+
 extra:
   generator: false
+
 theme:
     name: 'material'
     palette:
@@ -25,12 +27,14 @@ theme:
 
     features:
       - content.code.annotate
+      - content.tabs.link
 
 # Extensions
 markdown_extensions:
   - attr_list
   - md_in_html
   - footnotes
+
   - tables
   - pymdownx.highlight:
       anchor_linenums: true
@@ -45,6 +49,8 @@ markdown_extensions:
   # - pymdownx.magiclink
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
   - def_list
   - pymdownx.critic
   - pymdownx.caret
