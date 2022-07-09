@@ -22,10 +22,14 @@ theme:
         icon: material/weather-sunny
         name: Light mode
 
+    features:
+      - content.code.annotate
+
 # Extensions
 markdown_extensions:
   - footnotes
   # - attr_list
+  - tables
   - pymdownx.arithmatex:
       generic: true
   # - pymdownx.superfences
