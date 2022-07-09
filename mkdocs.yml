@@ -1,5 +1,6 @@
 site_name: Anwar's Notes
-
+extra:
+  generator: false
 theme:
     name: 'material'
     palette:
