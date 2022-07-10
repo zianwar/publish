@@ -1,7 +1,4 @@
----
-hide:
-  - footer
----
+
 
 # LaTeX Math Support
 

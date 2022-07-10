@@ -7,8 +7,12 @@ theme:
     name: 'material'
     custom_dir: overrides
 
-    palette:
+    features:
+      - content.code.annotate
+      - content.tabs.link
+      - toc.integrate
 
+    palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -27,9 +31,6 @@ theme:
         icon: material/weather-sunny
         name: Light mode
 
-    features:
-      - content.code.annotate
-      - content.tabs.link
 
 # Extensions
 markdown_extensions:
@@ -37,7 +38,6 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - footnotes
-
   - tables
   - pymdownx.highlight:
       anchor_linenums: true
@@ -47,7 +47,6 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.arithmatex:
       generic: true
-  # - pymdownx.superfences
   # - pymdownx.details
   # - pymdownx.magiclink
   - pymdownx.tasklist:

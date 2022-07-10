@@ -1,8 +1,3 @@
----
-hide:
-  - footer
----
-
 # Mermaid diagrams
 
 Here's the example from [MkDocs Material documentation](https://squidfunk.github.io/mkdocs-material/reference/diagrams/#using-flowcharts): 
@@ -15,5 +10,4 @@ graph LR
   D --> B;
   B ---->|No| E[Yay!];
 ```
-
 

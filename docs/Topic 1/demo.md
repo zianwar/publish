@@ -1,7 +1,4 @@
----
-hide:
-  - footer
----
+
 
 
 # Note 1

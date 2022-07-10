@@ -1,7 +1,4 @@
----
-hide:
-  - footer
----
+
 
 ## Hello World!
 
