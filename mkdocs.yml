@@ -31,6 +31,7 @@ theme:
 
 # Extensions
 markdown_extensions:
+  - meta
   - attr_list
   - md_in_html
   - footnotes
