@@ -1,3 +1,8 @@
+---
+hide:
+  - footer
+---
+
 # LaTeX Math Support
 
 LaTeX math is supported using MathJax.

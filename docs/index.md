@@ -1,6 +1,7 @@
-# Obsidian Notes
-
-Publish your public notes with MkDocs
+---
+hide:
+  - footer
+---
 
 ## Hello World!
 

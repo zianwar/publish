@@ -1,3 +1,8 @@
+---
+hide:
+  - footer
+---
+
 # Text Formatting 
 
 You can have lists like this
