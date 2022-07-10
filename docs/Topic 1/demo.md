@@ -67,9 +67,7 @@ tags on separate lines and adding new lines between the tags and the content.
 
 
 ### Images
-
-![Image title](https://dummyimage.com/600x400/eee/aaa){ align=left }
-
+![Image title](https://dummyimage.com/600x400/eee/aaa)
 
 ### Task Lists
 
